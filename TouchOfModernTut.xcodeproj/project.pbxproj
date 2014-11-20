@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3821FD821A1E10F000BF98E1 /* tutpage5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3821FD811A1E10F000BF98E1 /* tutpage5.png */; };
 		38542BD61A1DB93F00E451BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38542BD51A1DB93F00E451BB /* main.m */; };
 		38542BD91A1DB93F00E451BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38542BD81A1DB93F00E451BB /* AppDelegate.m */; };
 		38542BDC1A1DB93F00E451BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38542BDB1A1DB93F00E451BB /* ViewController.m */; };
-		38542BDF1A1DB93F00E451BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38542BDD1A1DB93F00E451BB /* Main.storyboard */; };
 		38542BE11A1DB93F00E451BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38542BE01A1DB93F00E451BB /* Images.xcassets */; };
 		38542BE41A1DB93F00E451BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38542BE21A1DB93F00E451BB /* LaunchScreen.xib */; };
 		38542BF01A1DB93F00E451BB /* TouchOfModernTutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38542BEF1A1DB93F00E451BB /* TouchOfModernTutTests.m */; };
+		38542BFA1A1DBBE100E451BB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38542BF91A1DBBE100E451BB /* ViewController.xib */; };
+		38542C001A1DC14C00E451BB /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38542BFE1A1DC14C00E451BB /* TutorialViewController.m */; };
+		38542C011A1DC14C00E451BB /* TutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38542BFF1A1DC14C00E451BB /* TutorialViewController.xib */; };
+		38542C081A1DCBEE00E451BB /* TutorialParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38542C061A1DCBED00E451BB /* TutorialParentViewController.m */; };
+		38542C091A1DCBEE00E451BB /* TutorialParentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38542C071A1DCBED00E451BB /* TutorialParentViewController.xib */; };
+		38542C0C1A1DE09F00E451BB /* loginscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 38542C0B1A1DE09F00E451BB /* loginscreen.png */; };
+		38542C0E1A1DE1A600E451BB /* fblogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 38542C0D1A1DE1A600E451BB /* fblogin.png */; };
+		38542C101A1DFAA000E451BB /* homepage.png in Resources */ = {isa = PBXBuildFile; fileRef = 38542C0F1A1DFAA000E451BB /* homepage.png */; };
+		38542C141A1DFB4A00E451BB /* UIViewController+CWPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 38542C131A1DFB4A00E451BB /* UIViewController+CWPopup.m */; };
+		38542C181A1DFC4B00E451BB /* BodyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38542C161A1DFC4B00E451BB /* BodyViewController.m */; };
+		38542C191A1DFC4B00E451BB /* BodyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38542C171A1DFC4B00E451BB /* BodyViewController.xib */; };
+		38542C261A1E0A0100E451BB /* tutpage1.png in Resources */ = {isa = PBXBuildFile; fileRef = 38542C221A1E0A0100E451BB /* tutpage1.png */; };
+		38542C271A1E0A0100E451BB /* tutpage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 38542C231A1E0A0100E451BB /* tutpage2.png */; };
+		38542C281A1E0A0100E451BB /* tutpage3.png in Resources */ = {isa = PBXBuildFile; fileRef = 38542C241A1E0A0100E451BB /* tutpage3.png */; };
+		38542C291A1E0A0100E451BB /* tutpage4.png in Resources */ = {isa = PBXBuildFile; fileRef = 38542C251A1E0A0100E451BB /* tutpage4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3821FD811A1E10F000BF98E1 /* tutpage5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutpage5.png; sourceTree = "<group>"; };
 		38542BD01A1DB93F00E451BB /* TouchOfModernTut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchOfModernTut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38542BD41A1DB93F00E451BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38542BD51A1DB93F00E451BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,12 +50,30 @@
 		38542BD81A1DB93F00E451BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		38542BDA1A1DB93F00E451BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		38542BDB1A1DB93F00E451BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		38542BDE1A1DB93F00E451BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38542BE01A1DB93F00E451BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		38542BE31A1DB93F00E451BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		38542BE91A1DB93F00E451BB /* TouchOfModernTutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchOfModernTutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38542BEE1A1DB93F00E451BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38542BEF1A1DB93F00E451BB /* TouchOfModernTutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchOfModernTutTests.m; sourceTree = "<group>"; };
+		38542BF91A1DBBE100E451BB /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		38542BFD1A1DC14C00E451BB /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
+		38542BFE1A1DC14C00E451BB /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
+		38542BFF1A1DC14C00E451BB /* TutorialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TutorialViewController.xib; sourceTree = "<group>"; };
+		38542C051A1DCBED00E451BB /* TutorialParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialParentViewController.h; sourceTree = "<group>"; };
+		38542C061A1DCBED00E451BB /* TutorialParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialParentViewController.m; sourceTree = "<group>"; };
+		38542C071A1DCBED00E451BB /* TutorialParentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TutorialParentViewController.xib; sourceTree = "<group>"; };
+		38542C0B1A1DE09F00E451BB /* loginscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginscreen.png; sourceTree = "<group>"; };
+		38542C0D1A1DE1A600E451BB /* fblogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fblogin.png; sourceTree = "<group>"; };
+		38542C0F1A1DFAA000E451BB /* homepage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homepage.png; sourceTree = "<group>"; };
+		38542C121A1DFB4A00E451BB /* UIViewController+CWPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CWPopup.h"; sourceTree = "<group>"; };
+		38542C131A1DFB4A00E451BB /* UIViewController+CWPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CWPopup.m"; sourceTree = "<group>"; };
+		38542C151A1DFC4B00E451BB /* BodyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyViewController.h; sourceTree = "<group>"; };
+		38542C161A1DFC4B00E451BB /* BodyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BodyViewController.m; sourceTree = "<group>"; };
+		38542C171A1DFC4B00E451BB /* BodyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BodyViewController.xib; sourceTree = "<group>"; };
+		38542C221A1E0A0100E451BB /* tutpage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutpage1.png; sourceTree = "<group>"; };
+		38542C231A1E0A0100E451BB /* tutpage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutpage2.png; sourceTree = "<group>"; };
+		38542C241A1E0A0100E451BB /* tutpage3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutpage3.png; sourceTree = "<group>"; };
+		38542C251A1E0A0100E451BB /* tutpage4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutpage4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +115,16 @@
 		38542BD21A1DB93F00E451BB /* TouchOfModernTut */ = {
 			isa = PBXGroup;
 			children = (
-				38542BD71A1DB93F00E451BB /* AppDelegate.h */,
-				38542BD81A1DB93F00E451BB /* AppDelegate.m */,
+				38542C111A1DFB3600E451BB /* CWPopUpView */,
+				38542C0A1A1DE09700E451BB /* resources */,
+				38542C031A1DC1D100E451BB /* Delegate */,
+				38542C021A1DC15300E451BB /* Tutorial View Controller */,
 				38542BDA1A1DB93F00E451BB /* ViewController.h */,
 				38542BDB1A1DB93F00E451BB /* ViewController.m */,
-				38542BDD1A1DB93F00E451BB /* Main.storyboard */,
+				38542BF91A1DBBE100E451BB /* ViewController.xib */,
+				38542C151A1DFC4B00E451BB /* BodyViewController.h */,
+				38542C161A1DFC4B00E451BB /* BodyViewController.m */,
+				38542C171A1DFC4B00E451BB /* BodyViewController.xib */,
 				38542BE01A1DB93F00E451BB /* Images.xcassets */,
 				38542BE21A1DB93F00E451BB /* LaunchScreen.xib */,
 				38542BD31A1DB93F00E451BB /* Supporting Files */,
@@ -117,6 +156,60 @@
 				38542BEE1A1DB93F00E451BB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38542C021A1DC15300E451BB /* Tutorial View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				38542C041A1DCBD400E451BB /* Pages */,
+				38542C051A1DCBED00E451BB /* TutorialParentViewController.h */,
+				38542C061A1DCBED00E451BB /* TutorialParentViewController.m */,
+				38542C071A1DCBED00E451BB /* TutorialParentViewController.xib */,
+			);
+			name = "Tutorial View Controller";
+			sourceTree = "<group>";
+		};
+		38542C031A1DC1D100E451BB /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				38542BD71A1DB93F00E451BB /* AppDelegate.h */,
+				38542BD81A1DB93F00E451BB /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		38542C041A1DCBD400E451BB /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				38542BFD1A1DC14C00E451BB /* TutorialViewController.h */,
+				38542BFE1A1DC14C00E451BB /* TutorialViewController.m */,
+				38542BFF1A1DC14C00E451BB /* TutorialViewController.xib */,
+			);
+			name = Pages;
+			sourceTree = "<group>";
+		};
+		38542C0A1A1DE09700E451BB /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				3821FD811A1E10F000BF98E1 /* tutpage5.png */,
+				38542C221A1E0A0100E451BB /* tutpage1.png */,
+				38542C231A1E0A0100E451BB /* tutpage2.png */,
+				38542C241A1E0A0100E451BB /* tutpage3.png */,
+				38542C251A1E0A0100E451BB /* tutpage4.png */,
+				38542C0F1A1DFAA000E451BB /* homepage.png */,
+				38542C0D1A1DE1A600E451BB /* fblogin.png */,
+				38542C0B1A1DE09F00E451BB /* loginscreen.png */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		38542C111A1DFB3600E451BB /* CWPopUpView */ = {
+			isa = PBXGroup;
+			children = (
+				38542C121A1DFB4A00E451BB /* UIViewController+CWPopup.h */,
+				38542C131A1DFB4A00E451BB /* UIViewController+CWPopup.m */,
+			);
+			name = CWPopUpView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +292,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38542BDF1A1DB93F00E451BB /* Main.storyboard in Resources */,
+				38542C091A1DCBEE00E451BB /* TutorialParentViewController.xib in Resources */,
 				38542BE41A1DB93F00E451BB /* LaunchScreen.xib in Resources */,
+				3821FD821A1E10F000BF98E1 /* tutpage5.png in Resources */,
+				38542C291A1E0A0100E451BB /* tutpage4.png in Resources */,
+				38542BFA1A1DBBE100E451BB /* ViewController.xib in Resources */,
+				38542C0C1A1DE09F00E451BB /* loginscreen.png in Resources */,
+				38542C281A1E0A0100E451BB /* tutpage3.png in Resources */,
+				38542C011A1DC14C00E451BB /* TutorialViewController.xib in Resources */,
+				38542C101A1DFAA000E451BB /* homepage.png in Resources */,
+				38542C271A1E0A0100E451BB /* tutpage2.png in Resources */,
+				38542C191A1DFC4B00E451BB /* BodyViewController.xib in Resources */,
+				38542C0E1A1DE1A600E451BB /* fblogin.png in Resources */,
+				38542C261A1E0A0100E451BB /* tutpage1.png in Resources */,
 				38542BE11A1DB93F00E451BB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +325,10 @@
 			files = (
 				38542BDC1A1DB93F00E451BB /* ViewController.m in Sources */,
 				38542BD91A1DB93F00E451BB /* AppDelegate.m in Sources */,
+				38542C081A1DCBEE00E451BB /* TutorialParentViewController.m in Sources */,
+				38542C141A1DFB4A00E451BB /* UIViewController+CWPopup.m in Sources */,
+				38542C001A1DC14C00E451BB /* TutorialViewController.m in Sources */,
+				38542C181A1DFC4B00E451BB /* BodyViewController.m in Sources */,
 				38542BD61A1DB93F00E451BB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +352,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		38542BDD1A1DB93F00E451BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				38542BDE1A1DB93F00E451BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		38542BE21A1DB93F00E451BB /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +512,7 @@
 				38542BF51A1DB93F00E451BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38542BF61A1DB93F00E451BB /* Build configuration list for PBXNativeTarget "TouchOfModernTutTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +521,7 @@
 				38542BF81A1DB93F00E451BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
